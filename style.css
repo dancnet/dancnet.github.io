@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #1a1a1a, #004400);
+    color: #d3d3d3;
+    font-family: "Inconsolata", monospace;
+    text-shadow: 1px 1px 2px #000000;
+  }
+header {
+    display: flex;
+}
+footer {
+    text-align: center;
+    font-size: 0.75em;
+}
+#main {
+    width: 800px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+}
+
+a {
+    color: #d3d3d3;
+    text-shadow: 1px 1px 2px #000000;
+}
+a:hover {
+    color: #FFD700;
+}
